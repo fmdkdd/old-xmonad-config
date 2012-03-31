@@ -77,7 +77,7 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     [ ((modm .|. shiftMask, xK_Return), spawn $ XMonad.terminal conf)
 
     -- launch dmenu
-    , ((modm,               xK_p     ), spawn "dmenu_run -fn 'Ubuntu-11' -nb '#dcdccc' -nf '#3f3f3f' -sb '#7f9f7f' -sf '#ececcc'")
+    , ((modm,               xK_x     ), spawn "dmenu_run -fn 'Ubuntu-11' -nb '#dcdccc' -nf '#3f3f3f' -sb '#7f9f7f' -sf '#ececcc'")
 
     -- launch gmrun
     , ((modm .|. shiftMask, xK_p     ), spawn "gmrun")
