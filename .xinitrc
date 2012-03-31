@@ -11,7 +11,7 @@ sh .fehbg
 # xmobar &
 
 # Trayer for gnome applets
-trayer --edge top --align right --width 15 --transparent true --alpha 0 --tint 0x333333 --SetDockType true --SetPartialStrut true --heighttype pixel --height 21 &
+trayer --edge top --align right --width 5 --transparent true --alpha 0 --tint 0x333333 --SetDockType true --SetPartialStrut true --heighttype pixel --height 21 &
 
 # Natural scrolling
 xinput set-button-map 11 1 2 3 5 4 7 6 8 9 10 11 12

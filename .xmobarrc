@@ -1,12 +1,12 @@
 Config { font = "xft:Ubuntu:size=11"
-       , bgColor = "#333333"
+       , bgColor = "#333"
        , fgColor = "grey"
-       , position = TopW L 85
+       , position = TopW L 95
        , lowerOnStart = True
        , commands = [ Run Date "%a %b %_d %Y %H:%M" "date" 600
                     , Run StdinReader
                     ]
        , sepChar = "%"
        , alignSep = "}{"
-       , template = "%StdinReader%}{<fc=#dfaf8f>%date%</fc>"
+       , template = "%StdinReader%}{%date%"
        }
