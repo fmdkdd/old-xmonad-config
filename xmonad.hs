@@ -262,8 +262,8 @@ myStartupHook = return ()
 myBar = "xmobar"
 
 myPP = xmobarPP {
-     ppCurrent = xmobarColor "#f0dfaf" "" . wrap "<" ">"
-     , ppTitle = xmobarColor "#8fb28f" ""
+         ppCurrent = xmobarColor "#f0dfaf" "" . wrap "<" ">"
+       , ppTitle = xmobarColor "grey" "" . shorten 120
      }
 
 toggleStrutsKey XConfig {XMonad.modMask = modMask} = (modMask, xK_b)
